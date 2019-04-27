@@ -4,4 +4,4 @@
 [@jamesdeath123](https://github.com/jamesdeath123)
 
 ## desc
-This is the frontend of https://utcaa.com.
+This is the frontend of https://utcaa.com

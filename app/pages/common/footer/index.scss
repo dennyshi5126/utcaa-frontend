@@ -1,0 +1,39 @@
+@import "../../../stylesheets/variables.scss";
+
+.footer {
+  background-color: $DARK_GREY;
+  color: WHITE;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  font-size: 15px;
+
+  .footerLogo {
+    max-width: 100%;
+  }
+}
+
+.qrCode {
+  height: 115px;
+  position: relative;
+  padding-top: 10px;
+}
+
+.contactInfo {
+  .contactInfoDetail {
+    .contactEntry {
+      padding-bottom: 10px;
+      .smIcon {
+        height: 22px;
+      }
+    }
+  }
+}
+
+a,
+a:link,
+a:active,
+a:hover,
+a:visited {
+  text-decoration: none !important;
+  color: white !important;
+}

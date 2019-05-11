@@ -1,0 +1,35 @@
+require('./stylesheets/vendor/bootstrap/css/bootstrap.min.v.3.3.5.css');
+
+import React from 'react';
+import { render } from 'react-dom';
+import { Route, Router, hashHistory, browserHistory } from 'react-router';
+import { Provider } from 'react-redux';
+import { applyMiddleware, compose, createStore } from 'redux';
+import thunk from 'redux-thunk';
+import HomePageContainer from './pages/homepage/HomePageContainer';
+import AppContainer from './pages/AppContainer';
+import { env } from './config/config';
+import reducer from './reducers';
+
+let appHistory = null;
+if (env === 'dev') {
+  appHistory = hashHistory;
+} else {
+  appHistory = browserHistory;
+}
+
+let store = createStore(reducer, compose(applyMiddleware(thunk)));
+
+let routes = (
+  <div className="app">
+    <Provider store={store}>
+      <Router history={appHistory}>
+        <Route name="main" component={AppContainer}>
+          <Route name="home" path="/" component={HomePageContainer} />
+        </Route>
+      </Router>
+    </Provider>
+  </div>
+);
+
+render(routes, document.getElementById('root'));

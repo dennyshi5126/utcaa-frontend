@@ -1,3 +1,10 @@
-node_modules
-*.tar
-*.log
+node_modules/
+!build/index_*
+build/
+public/*
+app/config/config.js
+npm-debug.log
+app/npm-debug.log
+**/*.DS_Store
+.vs/
+package-lock.json

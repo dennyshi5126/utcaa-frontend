@@ -1,7 +1,13 @@
 import React, { Component } from 'react';
+import ContactUs from './ContactUs';
 
 export default class HomePageContainer extends Component {
   render() {
-    return <div>This is homepage</div>;
+    return (
+      <div>
+        <div>This is homepage</div>
+        <ContactUs />
+      </div>
+    );
   }
 }

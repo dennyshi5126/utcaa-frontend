@@ -1,0 +1,115 @@
+.contactus-section {
+  padding: 50px 0;
+  position: relative;
+  background-color: #fff;
+}
+
+.row-container {
+  display: block;
+  width: 80%;
+  margin-left: 10%;
+  height: 400px;
+}
+
+.left-component {
+  float: left;
+  width: 64.833%;
+  margin-right: 5.5%;
+}
+
+.contact-text {
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.contact-text p {
+  line-height: 1.7em;
+  font-size: 16px;
+}
+
+.contact-form p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.contact-form p input,
+.contact-form p textarea {
+  width: 100%;
+  padding: 16px;
+  border: none;
+  color: #999;
+  background-color: #eee;
+  font-size: 14px;
+}
+
+.contact-form p textarea {
+  min-height: 150px;
+}
+
+.submit-container {
+  text-align: right;
+  margin: 0 0 0 15px;
+  display: block;
+}
+
+.validation-question {
+  display: inline-block;
+  min-width: 105px;
+  text-align: right;
+  font-size: 14px;
+  margin-right: 15px;
+}
+
+.validation-question input {
+  max-width: 50px;
+  padding: 16px;
+  color: #999;
+  background-color: #eee;
+}
+
+.submit-container button {
+  color: #ffffff !important;
+  background: #e00b00;
+  font-size: 16px;
+  background-color: #e00b00;
+}
+
+.right-component {
+  float: right;
+}
+
+.contact-info {
+  font-size: 16px;
+  line-height: 2em;
+  padding-left: 25% !important;
+}
+
+.media-follow {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.facebook-info {
+  display: inline-block;
+  margin-bottom: 8px;
+  width: 100%;
+}
+
+.facebook-icon {
+  margin-right: 8px;
+  color: #4267b2;
+  font-size: 32px;
+}
+
+.follow-button,
+.follow-button ::after {
+  padding: 0 12px;
+  border-radius: 3px;
+  color: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  line-height: 1.6em;
+}

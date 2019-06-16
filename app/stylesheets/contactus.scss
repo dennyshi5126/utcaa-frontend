@@ -99,17 +99,12 @@
 }
 
 .facebook-icon {
-  margin-right: 8px;
-  color: #4267b2;
-  font-size: 32px;
+  font-size: 32px !important;
 }
 
 .follow-button,
 .follow-button ::after {
-  padding: 0 12px;
-  border-radius: 3px;
-  color: rgba(0, 0, 0, 0.5);
-  background: rgba(0, 0, 0, 0.1);
-  font-size: 20px;
-  line-height: 1.6em;
+  background: rgba(0, 0, 0, 0.1) !important;
+  color: rgba(0, 0, 0, 0.5) !important;
+  border-radius: 3px !important;
 }

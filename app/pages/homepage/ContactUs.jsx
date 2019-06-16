@@ -27,7 +27,9 @@ export default class ContactUs extends Component {
                   <div className="validation-question">
                     <span>15+9</span>= <input type="text" />
                   </div>
-                  <button type="submit">发送</button>
+                  <button type="submit" className="btn btn-primary">
+                    发送
+                  </button>
                 </div>
               </form>
             </div>
@@ -45,8 +47,12 @@ export default class ContactUs extends Component {
                 <img src="https://utcaa.com/wp-content/uploads/2017/09/qrcode.png" alt="" />
               </div>
               <li className="facebook-info">
-                <i className="fab fa-facebook-square facebook-icon" />
-                <a href="https://www.facebook.com/groups/UTCAA/" className="follow-button" title="Facebook">
+                <i className="fab fa-facebook-square facebook-icon btn btn-link" />
+                <a
+                  href="https://www.facebook.com/groups/UTCAA/"
+                  className="btn btn-link follow-button"
+                  title="Facebook"
+                >
                   Follow
                 </a>
               </li>

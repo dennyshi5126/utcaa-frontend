@@ -6,6 +6,7 @@
 [@Yzhoufelix](https://github.com/Yzhoufelix)
 [@sharonsitu](https://github.com/sharonsitu)
 [@lb757134437](https://github.com/lb757134437)
+[@jiayizhao](https://github.com/JiayiZhaoUofT)
 
 ## desc
 This is the frontend of https://utcaa.com

@@ -1,0 +1,51 @@
+.login-container {
+  height: 300px;
+  width: 60%;
+  margin-left: 20%;
+}
+
+.signin-form p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-size: 16px;
+}
+
+.signin-form input {
+  width: 100%;
+  padding: 16px;
+  border-radius: 0;
+  color: #999;
+  background-color: #eee;
+}
+
+.signin-form button {
+  color: #e00b00 !important;
+  border-color: #e00b00;
+  background-color: white;
+  border-radius: 3px;
+  line-height: 1.7em !important;
+  width: 10%;
+  margin-left: 45%;
+}
+
+.more-option {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.signup-link,
+.forget-password {
+  margin-top: 10px;
+  color: gray;
+  font-size: 14px;
+  padding-bottom: 3px;
+}
+
+.signup-link a,
+.forget-password a {
+  background-color: gray;
+  border-radius: 3px;
+}

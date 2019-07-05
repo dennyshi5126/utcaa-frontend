@@ -7,6 +7,7 @@ import { Provider } from 'react-redux';
 import { applyMiddleware, compose, createStore } from 'redux';
 import thunk from 'redux-thunk';
 import HomePageContainer from './pages/homepage/HomePageContainer';
+import Login from './pages/users/Login';
 import AppContainer from './pages/AppContainer';
 import { env } from './config/config';
 import reducer from './reducers';
@@ -28,6 +29,7 @@ let routes = (
       <Router history={appHistory}>
         <Route name="main" component={AppContainer}>
           <Route name="home" path="/" component={HomePageContainer} />
+          <Route name="signin" path="/users/signin" component={Login} />
           <Route name="register" path="/register" component={Register} />
           <Route name="jointeam" path="/jointeam" component={JoinUs} />
         </Route>

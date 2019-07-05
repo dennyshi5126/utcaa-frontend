@@ -1,11 +1,12 @@
-@import "../../../stylesheets/variables.scss";
+@import '../../../stylesheets/variables.scss';
 
 .footer {
-  background-color: $DARK_GREY;
+  background-color: #dd3333;
   color: WHITE;
   padding-bottom: 30px;
   padding-top: 30px;
   font-size: 15px;
+  text-align: center;
 
   .footerLogo {
     max-width: 100%;

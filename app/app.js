@@ -10,6 +10,8 @@ import HomePageContainer from './pages/homepage/HomePageContainer';
 import AppContainer from './pages/AppContainer';
 import { env } from './config/config';
 import reducer from './reducers';
+import Register from './pages/signup/Register';
+import JoinUs from './pages/joinus/joinus';
 
 let appHistory = null;
 if (env === 'dev') {
@@ -26,6 +28,8 @@ let routes = (
       <Router history={appHistory}>
         <Route name="main" component={AppContainer}>
           <Route name="home" path="/" component={HomePageContainer} />
+          <Route name="register" path="/register" component={Register} />
+          <Route name="jointeam" path="/jointeam" component={JoinUs} />
         </Route>
       </Router>
     </Provider>

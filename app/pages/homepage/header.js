@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import './header.css';
-import Card from './test';
+import './header.scss';
 
 export default class Header extends Component {
   render() {

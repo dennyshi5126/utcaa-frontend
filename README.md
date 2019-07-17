@@ -9,6 +9,7 @@
 [@lb757134437](https://github.com/lb757134437)
 [@mattcui951](http://github.com/mattcui951)
 [@jiayizhao](https://github.com/JiayiZhaoUofT)
+[@shenziq1](https://github.com/shenziq1)
 
 ## desc
 

@@ -1956,14 +1956,14 @@ fieldset[disabled] a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #ff6700;
-  border-color: #ff6700;
+  background-color: #025aa5;
+  border-color: #01549b;
 }
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #ff6700;
-  border-color: #ff6700;
+  background-color: #025aa5;
+  border-color: #01549b;
 }
 
 .btn-primary:focus,

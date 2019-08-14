@@ -8,7 +8,7 @@ class AboutUsTitle extends React.Component {
       <div className="title">
         <h1 style={{ fontSize: '30px' }}>About Us</h1>
       </div>
-    )
+    );
   }
 }
 
@@ -19,8 +19,8 @@ class AboutUs extends React.Component {
         <AboutUsTitle />
         <AboutUsContent />
       </div>
-    )
+    );
   }
 }
 
-export default AboutUs
+export default AboutUs;

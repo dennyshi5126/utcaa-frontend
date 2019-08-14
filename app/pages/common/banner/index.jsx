@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 export default class Banner extends Component {
   render() {
     return (
-      <div className="body">
+      <div className="banner-container">
         <div className="container-full">
           <div className="header-contant-container">
             <div className="header-titile">欢迎来到多伦多大学华人校友会</div>

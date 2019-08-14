@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import Footer from 'pages/common/footer';
-import Banner from 'pages/common/banner';
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 
 class AppContainer extends Component {
@@ -14,7 +13,6 @@ class AppContainer extends Component {
             key: pathname,
           })}
         </ReactCSSTransitionGroup>
-        <Banner />
         <Footer />
       </div>
     );

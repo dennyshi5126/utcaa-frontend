@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router';
-import '../../stylesheets/user.scss';
+import '../../stylesheets/users.scss';
 
 export default class Login extends Component {
   handleSignin() {

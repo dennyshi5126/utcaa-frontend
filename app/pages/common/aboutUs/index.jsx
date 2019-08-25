@@ -5,7 +5,7 @@ import './AboutUsContent.scss';
 class AboutUs extends React.Component {
   render() {
     return (
-      <div className="aboutUsContent">
+      <div name="aboutus" className="aboutUsContent">
         <img src="https://utcaa.com/wp-content/uploads/2017/09/home-pic.png" alt="home-pic" className="logo" />
         <div className="two-p">
           <p className="introduce-text">

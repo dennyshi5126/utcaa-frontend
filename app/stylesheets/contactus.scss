@@ -2,29 +2,61 @@
   padding: 50px 0;
   position: relative;
   background-color: #fff;
+  display: block;
 }
 
 .row-container {
-  display: block;
+  position: relative;
+  display: inline-block;
   width: 80%;
   margin-left: 10%;
-  height: 400px;
+  height: 600px;
+  max-width: 1200px;
+  font-size: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
 }
 
 .left-component {
-  float: left;
   width: 64.833%;
   margin-right: 5.5%;
+  padding-right: 60px;
+  float: left;
+  position: relative;
+  z-index: 9;
+  background-position: center;
+  background-size: cover;
 }
 
 .contact-text {
-  margin-bottom: 30px;
-  text-align: left;
+  font-size: 16px;
+  line-height: 2em;
+  font-size: 100%;
+  vertical-align: baseline;
 }
 
 .contact-text p {
+  line-height: 2em;
+  font-size: 110%;
+  vertical-align: baseline;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+}
+.contact-form {
+  margin-top: 5%;
+  font-family: 'Open Sans', Arial, sans-serif;
+  color: #666;
+  display: block;
+  position: relative;
+}
+.contactus-form {
+  margin-left: -3%;
+  font-size: 100%;
+  vertical-align: baseline;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 500;
   line-height: 1.7em;
-  font-size: 16px;
 }
 
 .contact-form p {
@@ -53,6 +85,11 @@
   text-align: right;
   margin: 0 0 0 15px;
   display: block;
+  float: right;
+  margin-top: 15%;
+  // margin-right: 10%;
+  width: 100%;
+  // margin-top: -1.5%;
 }
 
 .validation-question {
@@ -70,24 +107,37 @@
   background-color: #eee;
 }
 
-.submit-container button {
+.submit-button {
   color: #ffffff !important;
   background: #e00b00;
-  font-size: 16px;
+  font-size: 100px;
   background-color: #e00b00;
+  padding: 0.3em 1em !important;
+  display: inline-block;
+  margin: 0 0 0 15px;
+  cursor: pointer;
+  border: 2px solid;
+  position: relative;
+  letter-spacing: normal;
+  word-spacing: normal;
+  font: 400 13.3333px Arial;
 }
 
 .right-component {
+  position: relative;
+  width: 25%;
   float: right;
 }
 
 .contact-info {
-  font-size: 16px;
+  font-size: 110%;
+  font-family: 'Open Sans', Arial, sans-serif;
   line-height: 2em;
-  padding-left: 25% !important;
+  padding-left: 1% !important;
 }
 
 .media-follow {
+  margin-top: 10%;
   text-align: center;
   margin-bottom: 16px;
 }
@@ -100,6 +150,7 @@
 
 .facebook-icon {
   font-size: 32px !important;
+  color: #4267b2;
 }
 
 .follow-button,
@@ -107,4 +158,17 @@
   background: rgba(0, 0, 0, 0.1) !important;
   color: rgba(0, 0, 0, 0.5) !important;
   border-radius: 3px !important;
+}
+.btn.btn-link.follow-button {
+  margin-bottom: 7%;
+  margin-left: 5%;
+}
+
+.facebook-icon {
+  margin-top: 5%;
+  max-width: 12%;
+}
+.icon {
+  max-width: 12%;
+  padding-bottom: 2%;
 }

@@ -11,7 +11,7 @@ class JoinusComponent extends Component {
   }
   render() {
     return (
-      <div id="join" className="joinus_container">
+      <div id="join" name="joinus" className="joinus_container">
         <section className="joinus_layer">
           <div
             className="et_pb_parallax_css"

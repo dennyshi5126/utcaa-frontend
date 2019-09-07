@@ -12,11 +12,14 @@ utcaa website frontend
 [@mattcui951](http://github.com/mattcui951)
 [@jiayizhao](https://github.com/JiayiZhaoUofT)
 [@shenziq1](https://github.com/shenziq1)
+[@qisenwang](https://github.com/keesonwang)
+[@mangovv](https://github.com/mangovv)
 [@fgao456](https://github.com/fgao456)
 [@mangovv](https://github.com/mangovv)
 [@jamesdeath123](https://github.com/jamesdeath123)
 [@yuqingzou](https://github.com/yuqingzou)
 [@DuxuanWu](https://github.com/DuxuanWu)
+
 
 ## desc
 

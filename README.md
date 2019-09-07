@@ -21,13 +21,19 @@ This is the frontend of https://utcaa.com
 
 ### to resolve conflict
 git fetch origin
-git rebase origin/{featureBranch}
+
+git rebase origin/master
+
 ....
-applying…
+
+applying....
+
 ....
 
 git add {filename}
+
 git rebase —continue
+
 ....
 
 git push origin {featureBranch} -f

@@ -9,13 +9,12 @@ import Banner from '../common/banner';
 export default class HomePageContainer extends Component {
   render() {
     return (
-      <div>
-        <p>This is homepage</p>
+      <div className="homepage-div">
+        <Header />
         <Banner />
         <AboutUs />
         <JoinusComponent />
         <ContactUs />
-        <Header />
       </div>
     );
   }

@@ -1,19 +1,8 @@
 import React, { Component } from 'react';
-import { Link } from 'react-scroll';
 import './banner.scss';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import Scroll from 'react-scroll';
-const Element = Scroll.Element;
-const scroller = Scroll.scroller;
+import { handleOnclickScroll } from '../../util.js';
 
 export default class Banner extends Component {
-  handleOnclickScroll(section) {
-    scroller.scrollTo(section, {
-      duration: 1000,
-      delay: 100,
-      smooth: true,
-    });
-  }
   render() {
     return (
       <div className="banner-container">
@@ -25,14 +14,14 @@ export default class Banner extends Component {
               <p>提供彼此交流、联络以及互相帮助的平台</p>
             </div>
             <div className="header-button">
-              <button className="joinus-button" onClick={this.handleOnclickScroll.bind(this, 'joinus')}>
+              <button className="joinus-button" onClick={handleOnclickScroll.bind(this, 'join-us')}>
                 加入我们
               </button>
             </div>
           </div>
           <button
             className="fas fa-chevron-circle-down scroll-down-button"
-            onClick={this.handleOnclickScroll.bind(this, 'aboutus')}
+            onClick={handleOnclickScroll.bind(this, 'about-us')}
           />
         </div>
       </div>

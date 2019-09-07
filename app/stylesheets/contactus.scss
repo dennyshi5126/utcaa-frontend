@@ -8,7 +8,7 @@
 .row-container {
   position: relative;
   display: inline-block;
-  width: 80%;
+  width: 100%;
   margin-left: 10%;
   height: 600px;
   max-width: 1200px;
@@ -18,6 +18,7 @@
 }
 
 .left-component {
+  margin-left: 2%;
   width: 64.833%;
   margin-right: 5.5%;
   padding-right: 60px;
@@ -124,16 +125,18 @@
 }
 
 .right-component {
+  padding-left: 1%;
   position: relative;
   width: 25%;
   float: right;
 }
 
 .contact-info {
+  margin-top: 10%;
   font-size: 110%;
   font-family: 'Open Sans', Arial, sans-serif;
   line-height: 2em;
-  padding-left: 1% !important;
+  padding-left: 15% !important;
 }
 
 .media-follow {

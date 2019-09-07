@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './header.scss';
+import { handleOnclickScroll } from '../util.js';
 
 export default class Header extends Component {
   render() {
@@ -14,8 +15,10 @@ export default class Header extends Component {
               <a href="#" className="item text-item">
                 <div className="text-item">主页</div>
               </a>
-              <a href="aboutus" className="item text-item">
-                <div className="text-item">关于UTCAA</div>
+              <a className="item text-item">
+                <div className="text-item" onClick={handleOnclickScroll.bind(this, 'about-us')}>
+                  关于UTCAA
+                </div>
               </a>
               <a href="#" className="dd text-item">
                 <div className="text-item">
@@ -31,11 +34,15 @@ export default class Header extends Component {
                   </a>
                 </div>
               </a>
-              <a href="joinus" className="item text-item">
-                <div className="text-item">加入UTCAA</div>
+              <a className="item text-item">
+                <div className="text-item" onClick={handleOnclickScroll.bind(this, 'join-us')}>
+                  加入UTCAA
+                </div>
               </a>
-              <a href="contacts" className="item text-item">
-                <div className="text-item">联系我们</div>
+              <a className="item text-item">
+                <div className="text-item" onClick={handleOnclickScroll.bind(this, 'contact')}>
+                  联系我们
+                </div>
               </a>
             </div>
           </div>

@@ -17,6 +17,7 @@ import UsersProfile from './pages/UsersProfile/UsersProfileContainer';
 import ResetPassword from './pages/ResetPassword/ResetPasswordContainer';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faArrowDown } from '@fortawesome/free-solid-svg-icons';
+import './stylesheets/app.scss';
 
 library.add(faArrowDown);
 

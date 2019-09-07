@@ -11,12 +11,9 @@ class JoinusComponent extends Component {
   }
   render() {
     return (
-      <div id="join" name="joinus" className="joinus_container">
+      <div id="join-us" name="joinus" className="joinus_container">
         <section className="joinus_layer">
-          <div
-            className="et_pb_parallax_css"
-            // style="background-image: url(https://utcaa.com/wp-content/uploads/2018/07/team-01-2.jpg);"
-          />
+          <div className="et_pb_parallax_css" />
           <div className="et_pb_fullwidth_header_container center">
             <div className="header-content-container center">
               <div className="header-content">

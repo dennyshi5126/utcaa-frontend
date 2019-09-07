@@ -1,5 +1,7 @@
 # utcaa-frontend
 
+utcaa website frontend
+
 ## team member
 
 [@jamesdeath123](https://github.com/jamesdeath123)
@@ -11,6 +13,8 @@
 [@jiayizhao](https://github.com/JiayiZhaoUofT)
 [@shenziq1](https://github.com/shenziq1)
 [@mangovv](https://github.com/mangovv)
+[@jamesdeath123](https://github.com/jamesdeath123)
+
 ## desc
 
 This is the frontend of https://utcaa.com

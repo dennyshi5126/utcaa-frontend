@@ -16,6 +16,7 @@ utcaa website frontend
 [@mangovv](https://github.com/mangovv)
 [@jamesdeath123](https://github.com/jamesdeath123)
 [@yuqingzou](https://github.com/yuqingzou)
+[@DuxuanWu](https://github.com/DuxuanWu)
 
 ## desc
 

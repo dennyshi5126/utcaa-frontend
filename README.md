@@ -19,7 +19,7 @@ utcaa website frontend
 [@jamesdeath123](https://github.com/jamesdeath123)
 [@yuqingzou](https://github.com/yuqingzou)
 [@DuxuanWu](https://github.com/DuxuanWu)
-
+[@dennyshi5126](https://github.com/dennyshi5126)
 
 ## desc
 

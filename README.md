@@ -27,6 +27,7 @@ utcaa website frontend
 This is the frontend of https://utcaa.com
 
 ### to resolve conflict
+
 git fetch origin
 
 git rebase origin/master
@@ -44,3 +45,15 @@ git rebase —continue
 ....
 
 git push origin {featureBranch} -f
+
+### setup
+
+In app/config folder, create a new `config.js` file
+
+copy content of `config.dev.js` to `config.js`
+
+From build folder, copy the content of `index_qa.html` and paste to a new file named `index.html`
+
+run `npm i`
+
+execute `npm start`

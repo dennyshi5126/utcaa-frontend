@@ -1,0 +1,41 @@
+.text {
+  font-size: 20px;
+  color: #e00b00 !important;
+  letter-spacing: 10px;
+  padding: 30px;
+}
+
+.event-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  line-height: 1.7em;
+}
+
+.event {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: auto;
+  text-align: center;
+}
+
+.event-text {
+  color: #666;
+  margin-top: 20px;
+}
+
+.event-image {
+  width: 247.28px;
+  height: 139.09px;
+}
+
+.event-margin {
+  margin-right: 5.5%;
+}
+.more-event-button {
+  font-size: 16px;
+  margin-top: 10%;
+  padding: 5px;
+  color: #000000 !important;
+  border: 2px solid;
+}

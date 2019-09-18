@@ -5,6 +5,7 @@ import ContactUs from './ContactUs';
 import Header from './header';
 import JoinusComponent from './JoinusComponent';
 import Banner from '../common/banner';
+import PreviousHistory from '../previoushistory/PreviousHistory';
 
 export default class HomePageContainer extends Component {
   render() {
@@ -13,6 +14,7 @@ export default class HomePageContainer extends Component {
         <Header />
         <Banner />
         <AboutUs />
+        <PreviousHistory />
         <JoinusComponent />
         <ContactUs />
       </div>

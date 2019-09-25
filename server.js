@@ -14,14 +14,16 @@ app.options('*', corsFilter()); // allow preflight (http.OPTIONS)
 
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.listen(app.get('port'), () => {
+const mode = process.env.MODE || '';
+
+app.listen(app.get('port'), function() {
   console.log('Express server listening on port ' + app.get('port'));
 });
 
-app.get('/*', (_, res, next) => {
+app.get('/*', (req, res, next) => {
   res.sendFile(path.join(__dirname, 'public/index.html'));
 });
 
-app.get('/*', (_, _, res, _) => {
+app.get('/*', (err, req, res, _) => {
   res.sendFile(path.join(__dirname, 'public/index.html'));
 });

@@ -26,8 +26,10 @@ export default class Header extends Component {
                   <i className="arrow down" />
                 </div>
                 <div className="dropdown">
-                  <a href="#">
-                    <div className="text-item dropdown-item">最新活动</div>
+                  <a>
+                    <div className="text-item dropdown-item" onClick={handleOnclickScroll.bind(this, 'next-event')}>
+                      最新活动
+                    </div>
                   </a>
                   <a href="#">
                     <div className="text-item dropdown-item">往期活动</div>

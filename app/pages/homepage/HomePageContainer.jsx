@@ -6,6 +6,8 @@ import Header from './header';
 import JoinusComponent from './JoinusComponent';
 import Banner from '../common/banner';
 import PreviousHistory from '../previoushistory/PreviousHistory';
+import NextEventComponent from './NextEvent';
+import nextEvent from './NextEvent/nextEvent.json';
 
 export default class HomePageContainer extends Component {
   render() {
@@ -14,6 +16,7 @@ export default class HomePageContainer extends Component {
         <Header />
         <Banner />
         <AboutUs />
+        <NextEventComponent nextEvent={nextEvent.event} />
         <PreviousHistory />
         <JoinusComponent />
         <ContactUs />

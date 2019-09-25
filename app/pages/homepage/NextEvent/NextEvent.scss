@@ -1,0 +1,54 @@
+.nextEventSection {
+  background-image: url(https://utcaa.com/wp-content/uploads/2019/03/0-1.png);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  color: white;
+  margin: 7% 0;
+  padding: 7% 0;
+  text-align: center;
+}
+
+.nextEventTitle,
+.nextEventSubtitle {
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin-top: 3%;
+}
+
+.nextEventInfo {
+  font-size: 2.5rem;
+  margin-top: 2%;
+  margin-bottom: 3%;
+}
+
+.nextEventBtn {
+  color: #c0c0c0;
+  font-size: 1.6rem;
+  text-align: center;
+  border: 2px #c0c0c0 solid;
+  border-radius: 2px;
+  width: 110px;
+  padding: 10px 10px;
+  transition: all 0.1s linear;
+  display: block;
+  margin: 0 auto;
+}
+
+.nextEventBtn:hover {
+  background: rgba(185, 75, 75, 0.7);
+  width: 120px;
+  border: 2px rgba(185, 75, 75, 0.7) solid;
+  text-decoration: none;
+  color: #c0c0c0;
+}
+
+.nextEventBtnIcon {
+  display: none;
+  transition: all 0.5s ease-in-out;
+}
+
+.nextEventBtn:hover .nextEventBtnIcon {
+  display: inline;
+}

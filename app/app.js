@@ -19,6 +19,7 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import { faArrowDown } from '@fortawesome/free-solid-svg-icons';
 import './stylesheets/app.scss';
 import EventDtailContainer from 'pages/eventdetail/EventDetailContainer';
+import EventContainer from './pages/eventPage/EventPageContainer';
 
 library.add(faArrowDown);
 
@@ -44,6 +45,7 @@ let routes = (
           <Route name="users_profile" exact path="/users/profile" component={UserProfile} />
           <Route name="reset_password" exact path="/users/reset_password" component={ResetPassword} />
           <Route name="event_detail" path="/events/:eventId" component={EventDtailContainer} />
+          <Route name="events" exact path="/events" component={EventContainer} />
         </Route>
       </Router>
     </Provider>

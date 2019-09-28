@@ -1,0 +1,28 @@
+.eventContainer {
+  background-image: url('../../assets/home-banner-1.png');
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  height: 236px;
+  padding-top: 94px;
+  margin-top: 69px;
+  left: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top center;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.eventTitle {
+  font-size: 36px;
+  color: white;
+  padding-bottom: 10px;
+  font-weight: 500;
+  line-height: 1em;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  z-index: 3;
+  width: 80%;
+}

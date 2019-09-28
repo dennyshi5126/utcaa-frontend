@@ -1,0 +1,83 @@
+.alumniContainer {
+  padding: 2% 0;
+}
+
+.alumniItemImgWrapper {
+  width: 47.25% !important;
+  margin-right: 5.5%;
+}
+
+.itemContent {
+  width: 47.25% !important;
+}
+
+.imgSection {
+  text-align: center !important;
+}
+
+strong {
+  color: #000000 !important;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.alumniName {
+  text-align: left;
+  margin-bottom: 5.82%;
+}
+
+.alumniDescription {
+  margin-bottom: 5.82%;
+  font-weight: 500;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.7em;
+  position: relative;
+  word-wrap: break-word;
+}
+
+.alumniReadMoreButton {
+  border-radius: 4px;
+  border: 2px solid black;
+  background-color: #fff;
+  text-align: center;
+  font-size: 16px !important;
+  padding: 8px 15px;
+  transition: all 0.2s;
+  cursor: pointer;
+  width: 105px;
+  white-space: nowrap;
+}
+.alumniReadMoreButton span {
+  cursor: pointer;
+  color: black !important;
+  display: inline-block;
+  position: relative;
+  transition: 0.2s;
+}
+
+.alumniReadMoreButton span:after {
+  content: '';
+  position: absolute;
+  opacity: 0;
+  top: 8.5px;
+  right: -15px;
+  transition: 0.2s;
+  border: solid black;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 4px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.alumniReadMoreButton:hover {
+  width: 115px;
+}
+.alumniReadMoreButton:hover span {
+  padding-right: 15px;
+}
+
+.alumniReadMoreButton:hover span:after {
+  opacity: 1;
+  right: 0;
+}

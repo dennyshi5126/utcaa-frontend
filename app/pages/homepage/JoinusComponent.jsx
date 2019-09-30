@@ -1,8 +1,6 @@
 /* eslint-disable prettier/prettier */
 import React, { Component } from 'react';
 import './JoinusComponent.scss';
-import '../signup/Register.jsx';
-import '../joinus/joinus.jsx';
 import { Link } from 'react-router';
 
 class JoinusComponent extends Component {

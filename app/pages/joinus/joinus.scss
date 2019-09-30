@@ -72,11 +72,6 @@ strong {
   background-size: cover;
 }
 
-.et_pb_section_parallax .et_pb_parallax_css,
-.et_pb_slides .et_parallax_bg.et_pb_parallax_css {
-  background-attachment: fixed;
-}
-
 .et_pb_fullwidth_header {
   position: relative;
   padding: 50px 0;
@@ -125,7 +120,6 @@ strong {
   -moz-flex-flow: row;
   -ms-flex-flow: row;
   flex-flow: row;
-  -ms-flex-wrap: wrap;
 }
 
 .et_pb_fullwidth_header .et_pb_fullwidth_header_container.left .header-content-container,
@@ -277,17 +271,11 @@ h1 {
   background-size: cover;
 }
 // .et_pb_bg_layout_dark,
-.et_pb_bg_layout_dark h1,
-.et_pb_bg_layout_dark h2,
-.et_pb_bg_layout_dark h3,
-.et_pb_bg_layout_dark h4,
-.et_pb_bg_layout_dark h5,
-.et_pb_bg_layout_dark h6 {
+.et_pb_bg_layout_dark h1 {
   color: #fff !important;
 }
 
 .et_pb_module.et_pb_section_parallax,
-.et_pb_posts_nav a.et_pb_section_parallax,
 .et_pb_tab.et_pb_section_parallax {
   position: relative;
 }

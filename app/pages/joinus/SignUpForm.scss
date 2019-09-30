@@ -1,0 +1,108 @@
+.signUpFormContainer {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 5fr;
+  grid-column: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px 20px;
+}
+
+.itemCol1 {
+  grid-column: 1 / span 1;
+}
+.itemCol2 {
+  grid-column: 2 / span 1;
+}
+.itemCol3 {
+  grid-column: 3 / span 1;
+}
+.itemCol4 {
+  grid-column: 4 / span 1;
+}
+
+.itemRow1 {
+  grid-row: 1 / span 1;
+}
+.itemRow2 {
+  grid-row: 2 / span 1;
+}
+.itemRow3 {
+  grid-row: 3 / span 1;
+}
+.itemRow4 {
+  grid-row: 4 / span 1;
+}
+.itemRow5 {
+  grid-row: 5 / span 1;
+}
+.itemRow6 {
+  grid-row: 6 / span 1;
+}
+.itemRow7 {
+  grid-row: 7 / span 1;
+}
+.itemRow8 {
+  grid-row: 8 / span 1;
+}
+.itemRow9 {
+  grid-row: 9 / span 1;
+}
+.itemRow10 {
+  grid-row: 10 / span 1;
+}
+.itemRow11 {
+  grid-row: 11 / span 1;
+}
+.itemEmailInput {
+  grid-row: 1 / span 1;
+  grid-column: 2 / span 3;
+}
+.introInput {
+  grid-row: 9 / span 1;
+  grid-column: 1 / span 4;
+}
+.itemSelect {
+  grid-column: 1 / span 2;
+}
+
+.signUpFormContainer {
+  font-size: 15px;
+}
+
+.signUpFormContainer input {
+  border: 1px solid #eee;
+  min-height: 35px;
+  border-color: #eee;
+  background-color: #eee;
+}
+
+.signUpFormContainer textarea {
+  border: 1px solid #eee;
+  border-color: #eee;
+  background-color: #eee;
+  margin-bottom: 20px;
+}
+
+.signUpFormContainer select {
+  border: 1px solid #eee;
+  background-color: #eee;
+}
+
+.signUpForm .btnContainer {
+  letter-spacing: 0px;
+  padding-left: 0.7em;
+  padding-right: 2em;
+  text-align: center;
+}
+.signUpForm .btnContainer button {
+  color: #e00b00;
+  background-color: white;
+  border: 2px solid #e00b00;
+  font-size: 18px;
+  font-family: inherit;
+}
+.signUpForm .btnContainer button:hover {
+  color: white;
+  background-color: #e00b00;
+  font-size: 18px;
+  font-family: inherit;
+  cursor: pointer;
+}

@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import ReactDom from 'react-dom';
 import Section from './component/section';
 import Intro from './component/intro';
 import SignUp from '../signup/SignUpForm';

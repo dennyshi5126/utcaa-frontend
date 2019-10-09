@@ -15,7 +15,7 @@ import { faArrowDown } from '@fortawesome/free-solid-svg-icons';
 import HomePage from './pages/homepage';
 import Signin from './pages/users/signin';
 import AppContainer from './pages/AppContainer';
-import Register from './pages/signup';
+import Register from './pages/users/signup';
 import JoinUs from './pages/joinus';
 import UserProfile from './pages/userProfile';
 import ResetPassword from './pages/ResetPassword';

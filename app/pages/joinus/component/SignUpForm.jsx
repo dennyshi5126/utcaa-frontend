@@ -61,6 +61,8 @@ class SignUpForm extends Component {
     this.setState({ hover: !this.state.hover });
   }
   render() {
+    const departments = this.props.departments;
+
     return (
       <form className="signUpForm" onSubmit={this.handleSubmit}>
         <div className="signUpFormContainer">
@@ -165,10 +167,9 @@ class SignUpForm extends Component {
             <option value="" disabled selected>
               --感兴趣的部门-第一选择 (Interested Department - First Choice) *--
             </option>
-            <option value="Events">活动部 Events</option>
-            <option value="Sponsorship">赞助部 Sponsorship</option>
-            <option value="Marketing">市场部 Marketing</option>
-            <option value="HR">人事部 HR</option>
+            {departments.map(depatment => (
+              <option key={depatment.id}>{depatment.name}</option>
+            ))}
           </select>
 
           <select
@@ -181,10 +182,9 @@ class SignUpForm extends Component {
             <option value="" disabled selected>
               --感兴趣的部门-第二选择 (Interested Department - First Choice) *--
             </option>
-            <option value="Events">活动部 Events</option>
-            <option value="Sponsorship">赞助部 Sponsorship</option>
-            <option value="Marketing">市场部 Marketing</option>
-            <option value="HR">人事部 HR</option>
+            {departments.map(depatment => (
+              <option key={depatment.id}>{depatment.name}</option>
+            ))}
           </select>
 
           <textarea

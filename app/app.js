@@ -43,7 +43,7 @@ let routes = (
           <Route name="register" path="/register" component={Register} />
           <Route name="jointeam" path="/jointeam" component={JoinUs} />
           <Route name="home" exact path="/" component={HomePage} />
-          <Route name="users_profile" exact path="/users/profile" component={UserProfile} />
+          <Route name="users_profile" exact path="/users/profile/:operation/:userId" component={UserProfile} />
           <Route name="reset_password" exact path="/users/reset_password" component={ResetPassword} />
           <Route name="event_detail" path="/events/:eventId" component={EventDtail} />
           <Route name="events" exact path="/events" component={Event} />

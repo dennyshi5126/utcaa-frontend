@@ -1,16 +1,49 @@
-.userBtn {
-  background: #dd3333;
-  color: #fff;
-  padding: 5px 15px;
-  margin-top: 50px;
-  min-width: 100px;
-}
+.profileContainer {
+  .userForm {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
 
-.userForm {
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
+  .inputField {
+    background: #eee;
+    padding: 10px;
+    border: 0px;
+    font-size: 14px;
+  }
 
-.my-row {
-  margin-top: 30px;
+  .spanField {
+    color: gray;
+    font-size: 14px;
+  }
+
+  .singleField {
+    width: 50%;
+    float: left;
+    margin-top: 20px;
+    text-align: left;
+  }
+
+  .email {
+    width: 100%;
+  }
+
+  .userBtn {
+    color: #fff;
+    padding: 5px 15px;
+    margin: 50px 50px 50px 0;
+    width: 130px;
+  }
+
+  .my-row:after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+
+  @media screen and (max-width: 768px) {
+    .singleField {
+      width: 100%;
+    }
+  }
 }
